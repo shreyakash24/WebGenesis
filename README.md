@@ -8,10 +8,12 @@ Welcome to **Web Genesis**, an intensive **Web Development Mentorship program** 
 
 Our repository is organized into the following main directories:  
 
-📂 **`html-css/`** - Foundational web components  
-📂 **`html-css-javascript/`** - Foundational and functional web components  
-📂 **`react/`** - Modern front-end development  
-📂 **`backend/`** - Server-side implementation  
+📂 **`Easy/`**
+
+📂 **`Medium/`**
+
+📂 **`Hard/`** 
+
 
 ---
 
