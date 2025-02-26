@@ -3,6 +3,7 @@ h1{
     font-size: 30px;
     font-family: 'Segoe UI';
     font-style: bold;
+    color: rgb(7, 69, 22);
 }
 #log{
     box-sizing: border-box;
@@ -36,15 +37,15 @@ p{
     text-decoration-line: initial;
 }
 button{
-    background-color: rgb(8, 2, 62);
+    background-color: rgb(7, 69, 22);
     color: #ccc;
     padding: 12px 90px 12px 90px;
     border-color: #ccc;
 }
 button:hover{
     background-color: #ccc;
-    color: rgb(8, 2, 62);
-    border-color: rgb(8, 2, 62);
+    color: rgb(7, 69, 22);
+    border-color: rgb(7, 69, 22);
 }
 #google_logo:hover{
     background-color: #ccc;

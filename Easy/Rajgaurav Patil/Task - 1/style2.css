@@ -3,6 +3,7 @@ h1{
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     font-style: bold;
+    color: rgb(7, 69, 22);
 }
 input{
     border: 1px solid #ccc;
@@ -14,15 +15,15 @@ input:hover{
     border: 1px solid #000;
 }
 button{
-    background-color: rgb(8, 2, 62);
+    background-color: rgb(7, 69, 22);
     color: #ccc;
     padding: 12px 90px 12px 90px;
     border-color: #ccc;
 }
 button:hover{
     background-color: #ccc;
-    color: rgb(8, 2, 62);
-    border-color: rgb(8, 2, 62);
+    color: rgb(7, 69, 22);
+    border-color: rgb(7, 69, 22);
 }
 #pass{
     box-sizing: border-box;
