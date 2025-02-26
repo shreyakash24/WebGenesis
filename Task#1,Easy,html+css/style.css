@@ -1,0 +1,41 @@
+h1{
+    display: flexbox;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    justify-items: center;
+    height: 10vh;
+    background-color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: cyan;
+    font-family:'Times New Roman', Times, serif;
+}
+.parent{
+    display: flexbox;
+    height: 100vh;
+    justify-items: center;
+    align-content: center;
+    align-self:center;
+    justify-self:center;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.log{
+    display: flexbox;
+    height:auto;
+    flex-wrap: nowrap;
+    background-color: rgb(160, 172, 182);
+    outline: 5px color(rgb(7, 7, 7));
+}
+.signup{
+    display: flexbox;
+    height:auto;
+    flex-wrap: nowrap;
+    background-color: rgb(160, 172, 182);
+    outline: 5px color(rgb(7, 7, 7));
+}
