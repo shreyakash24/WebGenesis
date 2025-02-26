@@ -1,0 +1,25 @@
+body{
+    background-image: url("b.jpg");
+    align-items: center;
+}
+
+header{
+    color: rgb(226, 183, 197);
+    font-weight: 200;
+    font-size: 50px;
+}
+
+.box{
+margin: 0 auto;
+height: 500px;
+width: 500px;
+background-color: rgba(224, 53, 133, 0.993);
+align-items: center;
+text-align: center;
+border: 2px solid black;
+}
+
+button{
+    background-color: rgba(241, 133, 184, 0.993);
+    color: rgba(247, 10, 120, 0.993);
+}
