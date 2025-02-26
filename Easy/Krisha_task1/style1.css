@@ -1,25 +1,46 @@
 body{
     background-image: url("b.jpg");
     align-items: center;
+    display: flex;
+    background-position: center;
+    background-repeat: repeat;
+    
 }
 
 header{
-    color: rgb(226, 183, 197);
+    color: rgb(171, 0, 121);
     font-weight: 200;
-    font-size: 50px;
+    font-size: 75px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
 
 .box{
 margin: 0 auto;
-height: 500px;
-width: 500px;
-background-color: rgba(224, 53, 133, 0.993);
+margin-top: 10vh;
+margin-bottom: 10vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 80vh;
+width: 60lvh;
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
+font-size: large;
+font-family: inherit;
 align-items: center;
-text-align: center;
-border: 2px solid black;
+justify-content: space-around;
+border: 2px solid rgb(136, 0, 95);
+border-radius: 15px;
 }
 
 button{
-    background-color: rgba(241, 133, 184, 0.993);
-    color: rgba(247, 10, 120, 0.993);
+    background-image:linear-gradient(to bottom,rgb(173, 0, 121),rgba(223, 9, 109, 0.596));
+    color: rgb(255, 248, 253);
+    border-radius: 10px;
+    border-color:rgb(105, 3, 80);
+    font-size:larger;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+
 }
+
