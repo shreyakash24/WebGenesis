@@ -11,10 +11,12 @@ MenuBtn.addEventListener('click',()=>{
 
 CloseBtn.addEventListener('click',()=>{
     SideBar.classList.remove('active')
+    SubMenu.style.display = 'none'
 })
 
 OutSide.addEventListener('click',()=>{
     SideBar.classList.remove('active')
+    SubMenu.style.display = 'none'
 })
 
 Dropdown.addEventListener('click', () => {
