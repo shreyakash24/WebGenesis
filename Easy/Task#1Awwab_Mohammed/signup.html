@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="login-form">
+            <h2>Login ✨</h2>
+            <input type="text" placeholder="Username &#x2709;" required>
+            <input type="password" placeholder="Password&#128273;" required>
+            <button>Login</button>
+            <span class="toggle-link" onclick="toggleForms()">Don't have an account? Sign up</span>
+        </div>
+        <div id="signup-form" class="hidden">
+            <h2>Sign Up✨</h2>
+            <input type="text" placeholder="Username &#x2709;" required>
+            <input type="email" placeholder="Email&#128231;" required>
+            <input type="password" placeholder="Password&#128273;" required>
+            <button>Sign Up</button>
+            <span class="toggle-link" onclick="toggleForms()">Already have an account? Login</span>
+        </div>
+    </div>
+    <script>
+        function toggleForms() {
+            document.getElementById('login-form').classList.toggle('hidden');
+            document.getElementById('signup-form').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
