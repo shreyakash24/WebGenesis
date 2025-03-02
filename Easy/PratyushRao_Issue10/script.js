@@ -53,7 +53,7 @@ function calculate(){
     
     try {
         let res=eval(content);
-        if(res==NaN) document.body.querySelector('.Ans').innerHTML='Error';
+        if(res==NaN || res==Infinity) document.body.querySelector('.Ans').innerHTML='Error';
         else document.body.querySelector('.Ans').innerHTML=res.toString();
     } catch (error) {
         document.body.querySelector('.Ans').innerHTML='Error';
